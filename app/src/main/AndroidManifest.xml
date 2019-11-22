@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission
+        android:name="android.permission.MANAGE_DOCUMENTS"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".controllers.presents.myPresents.MyPresentsListController"></activity>
+        <activity android:name=".controllers.want.WantListController"></activity>
+        <activity android:name=".controllers.myEventMembers.MyEventMembersList" />
+        <activity android:name=".controllers.invitedEventMembers.InvitedEventMembers" />
+        <activity android:name=".controllers.friends.FriendDetailController" />
+        <activity android:name=".controllers.friends.FriendsInviteController" />
+        <activity android:name=".controllers.friends.FriendsMainScreenController" />
+        <activity android:name=".controllers.createEvent.CreateEventCropPhotoController" />
+        <activity android:name=".controllers.createEvent.CreateEventChoosePhoto" />
+        <activity android:name=".controllers.notification.NotificationController" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBko8y2aAgC_6fwXNomTXciSXxsDNxP6yI" />
+
+        <activity android:name=".controllers.event.InvitedEventViewController" />
+        <activity android:name=".controllers.catalog.CatalogDetailScreenController" />
+        <activity android:name=".controllers.catalog.CatalogThemesController" />
+        <activity android:name=".controllers.myEventMembers.MyEventAddMembers" />
+        <activity android:name=".controllers.createEvent.CreateEventFinalStepController" />
+        <activity android:name=".controllers.createEvent.CreateEventAddMembersController" />
+        <activity android:name=".controllers.createEvent.CreateEventChoosePlaceController" />
+        <activity android:name=".controllers.createEvent.CreateEventChooseDateController" />
+        <activity
+            android:name=".controllers.createEvent.CreateEventNameController"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".controllers.event.EditEventController" />
+        <activity android:name=".controllers.event.EventViewController" />
+        <activity android:name=".controllers.profile.ProfileMainScreenController" />
+        <activity android:name=".controllers.mainScreen.UserMainScreenController" />
+        <activity android:name=".controllers.auth.UserEditAuthLastStepController" />
+        <activity android:name=".controllers.auth.SignUpCheckDataController" />
+        <activity android:name=".controllers.auth.UserEditAuthCropAddPhotoController" />
+        <activity android:name=".controllers.auth.UserEditAuthPhoneController">
+
+        </activity>
+        <activity android:name=".controllers.auth.UserEditAuthMainController">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controllers.event.EventMainPageController">
+
+        </activity>
+        <activity android:name=".controllers.auth.UserEditAuthPhoneCodeController" />
+        <activity android:name=".controllers.auth.UserEditAuthNameController" />
+        <activity android:name=".controllers.auth.UserEditAuthDateOfBirthController" />
+        <activity android:name=".controllers.profile.EditProfileController" />
+        <activity android:name=".controllers.profile.ChangeProfilePhoto" />
+        <activity android:name=".controllers.profile.ProfileCropChangedPhoto" />
+        <activity android:name=".controllers.auth.UserEditAuthGenderController" />
+        <activity android:name=".controllers.auth.UserEditAuthChoosePhotoFromGalleryController" />
+        <activity android:name=".controllers.profile.ProfileChangeDate" />
+        <activity android:name=".page.PageViewController" />
+        <activity android:name=".page.EditController" />
+    </application>
+
+</manifest>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Event</string>
+    <string name="sign_in">Войти</string>
+    <string name="password">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="language">RU</string>
+    <string name="newUser">Новый пользователь?  \u0020</string>
+    <string name="sign_up">Зарегистрироваться</string>
+    <string name="recovery_password">Восстановление пароля</string>
+    <string name="number">+7(905)</string>
+    <string name="code">Введите код</string>
+    <string name="get_password">Получить пароль</string>
+    <string name="get_passwordToast">Пароль отправлен на телефон</string>
+    <string name="error_data">Введенные данные неверны</string>
+
+    <string name="registration">Регистрация</string>
+
+    <string name="step1">Шаг 1/6</string>
+    <string name="step1_desc">Введите номер телефона для \n получения смс кода</string>
+    <string name="error_phone">Неверно введен номер телефона!</string>
+
+    <string name="step2">Шаг 2/6</string>
+    <string name="enter_confirmation_code">Введите полученный код</string>
+
+    <string name="step3">Шаг 3/6</string>
+    <string name="error_name">Введите имя!</string>
+    <string name="fio">Введите Ваше ФИО</string>
+    <string name="fio2">Фамилия Имя Отчество</string>
+
+    <string name="step4">Шаг 4/6</string>
+    <string name="enterDateBirthday">Укажите дату рождения</string>
+    <string name="dateBirthday">Дата рождения</string>
+    <string name="day">День</string>
+    <string name="month">Месяц</string>
+    <string name="year">Год</string>
+    <string name="error_date">Введена неверная дата</string>
+
+    <string name="step5">Шаг 5/6</string>
+    <string name="gender">Пол</string>
+    <string name="enter_sex">Введите пол</string>
+    <string name="male">Мужской</string>
+    <string name="female">Женский</string>
+    <string name="error_gender">Введите пол</string>
+
+    <string name="step6">Шаг 6/6</string>
+    <string name="take_photo">Сделать фото</string>
+    <string name="adding_photo">Добавьте фото</string>
+    <string name="camera_access_denied">"Невозможно получить доступ к камере. Отказано в доступе."</string>
+
+    <string name="next">Продолжить</string>
+
+    <string name="thank_you">Благодарим за регистрацию \n в сервисе MyEvent</string>
+    <string name="one_event">Мы создали для Вас первое событие: \n День рождения</string>
+    <string name="total">Вы можете пригласить друзей на это \n событие и составить список \n подарков, которые хотели бы \n получить</string>
+
+    <string name="profile">Мой профиль</string>
+
+    <string name="logout">Выйти из аккаунта</string>
+
+    <string name="edit_profile_title">Редактировать профиль</string>
+    <string name="change_profile_photo">Сменить фото профиля</string>
+    <string name="name_surname">Имя Фамилия</string>
+    <string name="birth_date">Дата рождения</string>
+    <string name="phone_numb">Номер телефона</string>
+
+    <string name="invitations">Приглашения</string>
+    <string name="events">События</string>
+
+    <string name="members">Учатсник</string>
+    <string name="gift_list">Список подарков</string>
+    <string name="chat">Чат</string>
+    <string name="maybe_interesting">Возможно вас заинтересует</string>
+
+    <string name="edit_event">Редактировать событие</string>
+    <string name="change_photo">Изменить фото</string>
+    <string name="event_name">Название события</string>
+    <string name="event_date">Дата события</string>
+    <string name="event_place">Место проведения</string>
+    <string name="event_description">Описание события</string>
+    <string name="delete_event">Удалить событие</string>
+
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+    <string name="want_to_delete">Вы действительно хотите удалить событие?</string>
+
+    <string name="step15">Шаг 1/5</string>
+    <string name="step25">Шаг 2/5</string>
+    <string name="step35">Шаг 3/5</string>
+    <string name="step45">Шаг 4/5</string>
+    <string name="step55">Шаг 5/5</string>
+
+    <string name="enter_event_name">Введите название мероприятия</string>
+    <string name="enter_event_description">Введите комментарий</string>
+
+    <string name="nothing"></string>
+
+    <array name="event_names">
+        <item>День рождения</item>
+        <item>Новый Год</item>
+        <item>Каникулы</item>
+    </array>
+
+    <string name="title_activity_create_event_choose_place_controller">Карта</string>
+
+    <string name="contacts">Контакты</string>
+
+    <string name="invite_to">+пригласить в MyEvent</string>
+    <string name="blank_field">Заполните все поля!</string>
+
+    <string name="event_congratulation">Вы создали первое событие в сервисе MyEvent!</string>
+    <string name="event_invite">Вы можете пригласить друзей на это событие и составить список
+        подарков которые хотели бы получить</string>
+    <string name="begin">Начать</string>
+
+    <string name="all_contact">Все</string>
+    <string name="my_event_contact">My Event</string>
+
+    <string name="add_to_want">Добавитьв "Я хочу"</string>
+    <string name="add_to_event">Добавить в событие</string>
+    <string name="forward_link">Переслать ссылку</string>
+
+    <string name="complete">Готово</string>
+    <string name="home">Главная</string>
+
+    <string name="my_events">Мои события</string>
+    <string name="i_invited">Я приглашён</string>
+    <string name="want_to_buy">Хочу купить</string>
+    <string name="my_friends">Мои друзья</string>
+    <string name="catalog">Каталог</string>
+    <string name="dialogs">Диалоги</string>
+    <string name="notifications">Уведомления</string>
+
+    <string name="incorrect_birth_date">Неправильная дата рождения.</string>
+
+    <string name="i_will_come">Я приду</string>
+    <string name="refuse">Отказаться</string>
+
+    <string name="location_error">Невозможно определить местоположение</string>
+
+
+    <string name="gallery">Галерея</string>
+
+    <string name="maybe_you_like">Возможно Вам понравится</string>
+
+    <string name="status_bought">Куплено</string>
+    <string name="status_actual">Актуально</string>
+    <string name="status">Статус:</string>
+    <string name="change">Изменить</string>
+    <string name="i_want">Я хочу</string>
+
+<string name="MAP_API_KEY">AIzaSyBko8y2aAgC_6fwXNomTXciSXxsDNxP6yI</string>
+
+
+    </resources>
+

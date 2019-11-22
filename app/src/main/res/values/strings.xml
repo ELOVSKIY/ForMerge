@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">My Event</string>
+    <string name="sign_in">Sign in</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot your password?</string>
+    <string name="language">EN</string>
+    <string name="newUser">New user?  \u0020</string>
+    <string name="sign_up">Sign up</string>
+    <string name="recovery_password">Recovery Password</string>
+    <string name="number">+7(905)</string>
+    <string name="code">Enter a code</string>
+    <string name="get_password">Get password</string>
+    <string name="get_passwordToast">Password sent to phone</string>
+    <string name="error_data">Еhe entered data is incorrect</string>
+    <string name="registration">Sign up</string>
+
+    <string name="step1">Step 1/6</string>
+    <string name="step1_desc">Enter phone number to \n receive SMS code</string>
+
+    <string name="step2">Step 2/6</string>
+    <string name="enter_confirmation_code">Enter confirmation code</string>
+
+    <string name="step3">Step 3/6</string>
+    <string name="fio">Enter your name</string>
+    <string name="fio2">Name</string>
+    <string name="error_name">Enter name</string>
+
+    <string name="step4">Step 4/6</string>
+    <string name="dateBirthday">Date birthday</string>
+    <string name="enterDateBirthday">Enter Date Birthday</string>
+    <string name="day">Day</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="error_date">Date entered incorrectly</string>
+
+    <string name="step5">Step 5/6</string>
+    <string name="enter_sex">Enter gender</string>
+    <string name="gender">Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="error_gender">No gender selected</string>
+
+    <string name="step6">Step 6/6</string>
+    <string name="adding_photo">Add photo</string>
+    <string name="take_photo">Take photo</string>
+    <string name="camera_access_denied">"Cannot use camera. Access denied."</string>
+
+    <string name="next">Next</string>
+    <string name="thank_you">Thank you for registering \n in MyEvent</string>
+    <string name="one_event">We created the first event for you: \n Birthday</string>
+    <string name="total">You can invite friends to this \n event and make a list of \n gifts that you would like \n to receive</string>
+    <string name="error_phone">Phone number entered incorrectly</string>
+
+    <string name="logout">Выйти из аккаунта</string>
+
+    <string name="profile">Profile</string>
+
+    <string name="edit_profile_title">Edit profile</string>
+
+    <string name="change_profile_photo">Change photo</string>
+    <string name="name_surname">Name</string>
+    <string name="birth_date">Birth date</string>
+    <string name="phone_numb">Phone number</string>
+
+    <string name="invitations">Invitations</string>
+    <string name="events">Events</string>
+
+    <string name="members">Members</string>
+    <string name="gift_list">Gift list</string>
+    <string name="chat">Chat</string>
+    <string name="maybe_interesting">Maybe you will be interested:</string>
+
+    <string name="edit_event">Edit event</string>
+    <string name="change_photo">Change photo</string>
+    <string name="event_name">Event name</string>
+    <string name="event_date">Event date</string>
+    <string name="event_place">Event place</string>
+    <string name="event_description">Event description</string>
+    <string name="delete_event">Delete event</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="want_to_delete">Are you sure you want to delete the event?</string>
+
+    <string name="step15">Step 1/5</string>
+    <string name="step25">Step 2/5</string>
+    <string name="step35">Step 3/5</string>
+    <string name="step45">Step 4/5</string>
+    <string name="step55">Step 5/5</string>
+
+    <string name="enter_event_name">Enter event name</string>
+    <string name="enter_event_description">Enter event description</string>
+
+    <string name="nothing"></string>
+
+    <array name="event_names">
+        <item>Birthday</item>
+        <item>New Year</item>
+        <item>Holiday</item>
+    </array>
+    <string name="title_activity_create_event_choose_place_controller">Map</string>
+
+    <string name="contacts">Contacts</string>
+
+    <string name="invite_to">+invate to MyEvent</string>
+
+    <string name="blank_field">Fill in all the fields!</string>
+
+    <string name="event_congratulation">You created the first event in the MyEvent service!</string>
+    <string name="event_invite">You can invite friends to this event
+         and make a list. gifts that you would like to receive</string>
+    <string name="begin">Begin</string>
+
+    <string name="all_contact">All</string>
+    <string name="my_event_contact">My Event</string>
+
+
+    <array name="subThemeTest">
+        <item>Всё</item>
+        <item>Инвентарь</item>
+        <item>Аксесуары</item>
+        <item>Одежда</item>
+    </array>
+
+    <string name="add_to_want">Add to "I want"</string>
+    <string name="add_to_event">Add to event</string>
+    <string name="forward_link">Forward link</string>
+
+    <string name="complete">Complete</string>
+    <string name="home">Home</string>
+
+    <string name="my_events">My events</string>
+    <string name="i_invited">I am invited</string>
+    <string name="want_to_buy">Want to buy</string>
+    <string name="my_friends">My friends</string>
+    <string name="catalog">Catalog</string>
+    <string name="dialogs">Dialogs</string>
+    <string name="notifications">Notifications</string>
+
+    <string name="incorrect_birth_date">Incorrect date.</string>
+
+    <string name="i_will_come">I will come</string>
+    <string name="refuse">Refuse</string>
+
+    <string name="location_error">Unable to determine location</string>
+
+    <string name="gallery">Gallery</string>
+
+    <string name="maybe_you_like">You might like it</string>
+    <string name="status_bought">Bought</string>
+    <string name="status_actual">Actual</string>
+    <string name="status">Status:</string>
+    <string name="change">Change</string>
+    <string name="i_want">I want</string>
+
+    <string name="MAP_API_KEY">AIzaSyBko8y2aAgC_6fwXNomTXciSXxsDNxP6yI</string>
+
+
+</resources>

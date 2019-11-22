@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_start"
+    tools:context=".controllers.auth.UserEditAuthDateOfBirthController">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_textview"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewStepDescription"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textViewDay"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/day"
+            android:textColor="@color/colorTextRegister"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStepDescription"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewMonth"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/month"
+            android:textColor="@color/colorTextRegister"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStepDescription"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textViewYear"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="@string/year"
+            android:textColor="@color/colorTextRegister"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStepDescription"
+            tools:ignore="MissingConstraints" />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearlayout_editText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout_textview"
+        tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/editDay"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/editDay2"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:hint="2"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/edit_day"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <EditText
+            android:id="@+id/editMonth"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="45dp"
+            android:hint="0"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/editDay2"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editMonth2"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:hint="5"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/editMonth"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editYear"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:hint="1"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/editMonth2"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editYear2"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:hint="9"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/editYear"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editYear3"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:hint="9"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/editYear2"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/editYear4"
+            android:layout_width="32dp"
+            android:layout_height="wrap_content"
+            android:hint="8"
+            android:inputType="phone"
+            android:maxLength="1"
+            android:onClick="сheckEditTextDateOfBirth"
+            android:textAlignment="center"
+            android:textColor="@color/colorTextRegister"
+            android:textColorHint="@color/colorTextRegister"
+            app:layout_constraintStart_toEndOf="@+id/editYear3"
+            tools:ignore="MissingConstraints" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/background_button"
+        android:text="@string/next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearlayout_editText" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
